@@ -8,4 +8,6 @@
 .item_container img{
     max-width: 10%; 
     max-height: 10%; 
+    display: block; /* Сделать изображение блочным элементом */
+    margin: 0 auto;
 }
