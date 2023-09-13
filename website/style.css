@@ -2,6 +2,7 @@
     width: 150px;
     height: 200px;
     overflow: auto;
+    text-align: center;
 }
 
 .item_container img{
@@ -9,4 +10,9 @@
     max-height: 70%; 
     display: block; 
     margin: 0 auto;
+}
+
+.item_container button{
+    width: 100%;
+    padding: 5px;
 }

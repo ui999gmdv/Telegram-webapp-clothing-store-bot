@@ -1,11 +1,9 @@
 const container = document.getElementById("container");
 
 const items = [
-    { src: "testDir/TShirt.png", text: "Футболка" ,
-    src: "testDir/shorts.png", text: "Шорты" ,
-    src: "testDir/sweater.png", text: "Свитер" 
-}
-    // Добавьте другие объекты по аналогии
+    { src: "testDir/TShirt.png", text: "Футболка"} ,
+    {src: "testDir/shorts.png", text: "Шорты" },
+   { src: "testDir/sweater.png", text: "Свитер"} 
 ];
 
 
