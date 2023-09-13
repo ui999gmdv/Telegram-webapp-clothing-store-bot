@@ -26,3 +26,8 @@ items.forEach(item => {
 
     container.appendChild(div);
 });
+
+
+let tg = window.Telagram.WebApp;
+let buy = document.getElementById("buy");
+let order = document.getElementById("order")
