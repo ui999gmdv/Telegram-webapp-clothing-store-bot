@@ -1,11 +1,11 @@
 .item_container{
-    width: 300px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border: 1px solid #000; 
     overflow: auto;
 }
 
 .item_container img{
-    max-width: 100%; 
-    max-height: 100%; 
+    max-width: 10%; 
+    max-height: 10%; 
 }
