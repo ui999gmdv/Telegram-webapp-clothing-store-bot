@@ -1,10 +1,22 @@
+const sqlite3 = require('sqlite3').verbose();
+let db = new sqlite3.Database('E:/projects/py_projects/sada/database/goods.db');
+
+db.all('SELECT source, name FROM items', (err, rows) => {
+  if (err) {
+    console.error(err.message);
+    return;
+  }
+  const items = rows.map(row => ({ src: row.src, text: row.text }));
+});
+db.close()
+
+
+
+
 const container = document.getElementById("container");
 
-const items = [
-    { src: "testDir/TShirt.png", text: "Футболка"} ,
-    {src: "testDir/shorts.png", text: "Шорты" },
-   { src: "testDir/sweater.png", text: "Свитер"} 
-];
+
+
 
 
 items.forEach(item => {
